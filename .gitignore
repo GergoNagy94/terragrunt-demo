@@ -1,0 +1,17 @@
+*.tfstate
+*.tfstate.backup
+*.tfplan
+*.terraform/
+*.terraform.lock.hcl
+environments/*/.terraform/
+environments/*/*.tfstate
+environments/*/*.tfstate.backup
+environments/*/*.tfplan
+*.auto.tfvars
+*.auto.tfvars.json
+terraform.tfvars
+terraform.tfvars.json
+.vscode/
+.idea/
+*.DS_Store
+
