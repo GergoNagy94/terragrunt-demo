@@ -6,7 +6,7 @@ remote_state {
   }
 
   config = {
-    path = "${path_relative_to_linclude()}/terraform.tfstate"
+    path = "${path_relative_to_include()}/terraform.tfstate"
   }
 }
 
